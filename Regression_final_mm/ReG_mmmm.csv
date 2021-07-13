@@ -1,0 +1,26 @@
+,Activation_functions,Coefficient of determination(train),MAE Test,MAE Train ,MAE criteria,MAE criteria (95%),MSE Test,MSE Train,Optimzer,Q2f1,Q2f2,TROPSA criteria,batch_size,loss,model,num_layers
+0,relu,0.981,1.43,0.231,BAD,BAD,3.784,0.117,Adam,0.316000015,0.312000006,FAIL,32,huber_loss,model_0,15
+1,relu,-0.078,2.025,2.092,BAD,BAD,6.33,6.751,RMSprop,-0.143999994,-0.151999995,FAIL,16,mean_squared_error,model_1,19
+2,relu,0.985,1.505,0.236,BAD,BAD,3.627,0.091,Adamax,0.344000012,0.340000004,FAIL,16,mean_squared_error,model_2,2
+3,relu,0.934,1.434,0.477,BAD,BAD,3.649,0.414,Adam,0.340000004,0.335999995,FAIL,32,huber_loss,model_3,21
+4,relu,0.97,1.595,0.241,BAD,BAD,4.305,0.187,Adagrad,0.222000003,0.216999993,FAIL,16,huber_loss,model_4,15
+5,relu,0.993,1.431,0.101,BAD,BAD,3.554,0.044,Adagrad,0.35800001,0.352999985,FAIL,16,huber_loss,model_5,15
+6,relu,0.858,1.554,0.714,BAD,BAD,4.254,0.89,Adam,0.231000006,0.225999996,FAIL,32,mean_squared_error,model_6,13
+7,relu,0.992,1.431,0.17,BAD,BAD,3.357,0.048,Adamax,0.393000007,0.388999999,FAIL,32,mean_squared_error,model_7,3
+8,relu,0.926,1.594,0.482,BAD,BAD,4.416,0.466,Adam,0.202000007,0.195999995,FAIL,32,huber_loss,model_8,23
+9,relu,0.981,1.465,0.232,BAD,BAD,3.859,0.117,SGD,0.301999986,0.298000008,FAIL,16,mean_squared_error,model_9,5
+10,relu,0.995,1.438,0.057,BAD,BAD,3.68,0.03,Adagrad,0.335000008,0.330000013,FAIL,16,huber_loss,model_10,22
+11,relu,0.971,1.447,0.301,BAD,BAD,3.905,0.18,Adam,0.294,0.289000005,FAIL,32,huber_loss,model_11,14
+12,relu,0.613,1.739,1.119,BAD,BAD,5.169,2.425,Adam,0.066,0.059,FAIL,32,huber_loss,model_12,17
+13,relu,0.998,1.525,0.07,BAD,BAD,3.895,0.013,Adagrad,0.296000004,0.291000009,FAIL,32,mean_squared_error,model_13,13
+14,relu,0.988,1.403,0.209,BAD,BAD,3.431,0.076,Adamax,0.379999995,0.375999987,FAIL,16,huber_loss,model_14,27
+15,relu,0.854,1.969,0.834,BAD,BAD,6.637,0.914,RMSprop,-0.200000003,-0.208000004,FAIL,32,huber_loss,model_15,11
+16,relu,0.869,1.695,0.654,BAD,BAD,5.344,0.822,RMSprop,0.034000002,0.028000001,FAIL,16,huber_loss,model_16,17
+17,relu,0.415,1.933,1.492,BAD,BAD,5.807,3.667,Adam,-0.050000001,-0.057,FAIL,32,mean_squared_error,model_17,24
+18,relu,-0.006,1.94,2.044,BAD,BAD,5.649,6.306,Adam,-0.021,-0.028000001,FAIL,16,huber_loss,model_18,26
+19,relu,0.963,1.472,0.306,BAD,BAD,4.163,0.234,RMSprop,0.246999994,0.241999999,FAIL,16,huber_loss,model_19,20
+20,relu,-0.035,1.957,2.086,BAD,BAD,5.573,6.488,SGD,-0.007,-0.014,FAIL,16,huber_loss,model_20,26
+21,relu,-5.883,5.882,6.083,BAD,BAD,40.063,43.126,Adamax,-6.242000103,-6.289999962,FAIL,16,mean_squared_error,model_21,15
+22,relu,-6.475,6.178,6.378,BAD,BAD,43.662,46.839,Adam,-6.892000198,-6.945000172,FAIL,32,huber_loss,model_22,24
+23,relu,-5.802,5.841,6.042,BAD,BAD,39.574,42.62,Adam,-6.152999878,-6.201000214,FAIL,32,huber_loss,model_23,27
+24,relu,-5.308,5.582,5.785,BAD,BAD,36.578,39.524,Adamax,-5.611999989,-5.656000137,FAIL,32,mean_squared_error,model_24,29
